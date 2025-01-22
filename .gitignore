@@ -1,22 +1,15 @@
-# Java
-*.class
-*.jar
-*.war
-*.ear
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
 
-# Maven
-target/
-*.log
+# Banco de dados H2
+*.mv.db
 
-# IntelliJ IDEA
+# IDEs e arquivos específicos
 .idea/
+.vscode/
 *.iml
 
-# Eclipse
-*.classpath
-*.project
-*.settings/
-
-# Sistema Operacional
-.DS_Store
-Thumbs.db
+# Logs
+*.log
